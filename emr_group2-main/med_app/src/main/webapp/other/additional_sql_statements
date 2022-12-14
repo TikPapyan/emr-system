@@ -1,0 +1,46 @@
+use patient;
+create table PractitionerCredential (
+	prcdl_id int primary key auto_increment,
+    practitioner_id int not null unique,
+    login varchar(40) not null,
+    password varchar(40) not null,
+    constraint fk_pract_id FOREIGN KEY (practitioner_id) references practitioner(practitionerID)
+);
+create table SuperAdminCredential (
+	superadmin_id int primary key auto_increment,
+    login varchar(40) not null,
+    password varchar(40) not null
+);
+insert into qualifications(code, description)
+values
+("bach", "Bachelor of Nursing"),
+("bach", "Bachelor on Science - Nursing"),
+("bach", "Bachelor of Theology"),
+("bach", "Bachelor of Theology"),
+("bach", "Certified Adult Nurse Practitioner"),
+("cert", "Certified Medical Assistant"),
+("cert", "Certified Nurse Midwife"),
+("cert", "Certified Nurse Practitioner"),
+("cert", "Certified Nurse Specialist"),
+("cert", "Certified Pediatric Nurse Practitioner"),
+("cert", "Certified Registered Nurse"),
+("cert", "Certified Tumor Registrar"),
+("doct", "Doctor of Business Administration"),
+("doct", "Doctor of Education"),
+("doct", "Doctor of Osteopathy"),
+("tech", "Emergency Medical Technician"),
+("tech", "Emergency Medical Technician - Paramedic"),
+("practit", "Nurse Practitioner"),
+("prac", "Family Practice Nurse Practitioner"),
+("doct", "Doctor of Medicine"),
+("asis", "Medical Assistant"),
+("prac", "Advanced Practice Nurse"),
+("asis", "Registered Medical Assistant"),
+("doct", "Doctor of Pharmacy"),
+("nurs", "Registered Nurse"),
+("pharm", "Registered Pharmacist");
+
+insert into `Diagnose Codes`(diagnosecode,description)
+values (1, "description1"),
+(2, "description2"),
+(3, "description3");

@@ -1,0 +1,117 @@
+input[type="file"] {
+    display: none;
+}
+
+#forImage {
+    color: black;
+    height: 40px;
+    width: 350px;
+    background-color: #dee0e3;
+    position: absolute;
+    margin: auto;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+img {
+    max-width: 60%;
+    max-height: 80%;
+    position: absolute;
+    left: 20px;
+    top: 60px;
+}
+
+.std {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 350px;
+    height: 42px;
+    background: #dee0e3;
+}
+
+.names {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 173px;
+    height: 40px;
+    background: #dee0e3;
+}
+
+.std1 {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 104px;
+    height: 40px;
+    background: #dee0e3;
+}
+
+.std2 {
+    padding: 10px 14px;
+    margin: 8px 41px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 104px;
+    height: 40px;
+    background: #dee0e3;
+}
+
+#month, #year {
+    margin-left: 15px;
+}
+
+#city, #state, #postal {
+    margin-left: 15px;
+}
+
+.image {
+    float: left;
+}
+
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 350px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    position: absolute;
+    padding: 20px;
+    float: right;
+    right: 50px;
+}
+
+form {
+    margin: 2em;
+    line-height: 2em;
+}
+
+SELECT{
+    padding: 5px;
+}

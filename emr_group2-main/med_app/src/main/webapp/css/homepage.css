@@ -1,0 +1,40 @@
+p {
+    float: left;
+}
+img {
+    border-radius: 30%;
+}
+h1 {
+    width: 600px;
+    margin: 0 auto;
+}
+.mec_div {
+    display: flex;
+    justify-content: center;
+}
+.xrdiv {
+    display:flex;
+}
+.dnt-nkar {
+    background-image: url(https://assets.api.uizard.io/api/cdn/stream/489b29f9-d2fb-499b-88c4-1ba70d34d1fd.jpg);
+    height: 330px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2%;
+}
+/* .nkar-bjishk {
+	background-image: url()
+	background-position: center;
+	background-size: cover;
+}
+ */
+a {
+    display:flex;
+    align-items: center;
+    border: solid gray;
+    border-radius: 10%;
+    margin: 0 15px 0 auto;
+}
+a:hover {
+    background-color: gray;
+}
